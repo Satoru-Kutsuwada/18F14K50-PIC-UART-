@@ -1,0 +1,180 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F14K50 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"65 C:\Users\nosak\MPLABXProjects\PICworld.X\18F14K50-PIC-\PIC 18F14K50.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"146
+[v _Wait Wait `(v  1 e 1 0 ]
+"159
+[v _PutString PutString `(v  1 e 1 0 ]
+"177
+[v _PutStringLF PutStringLF `(v  1 e 1 0 ]
+"196
+[v _PutString01 PutString01 `(v  1 e 1 0 ]
+"205
+[v _PutString03 PutString03 `(v  1 e 1 0 ]
+"218
+[v _GetChar GetChar `(uc  1 e 1 0 ]
+"234
+[v _uint2string uint2string `(v  1 e 1 0 ]
+"2127 C:/Program Files/Microchip/MPLABX/v6.05/packs/Microchip/PIC18F-K_DFP/1.7.134/xc8\pic\include\proc\pic18f14k50.h
+[v _ANSEL ANSEL `VEuc  1 e 1 @3966 ]
+"2172
+[v _ANSELH ANSELH `VEuc  1 e 1 @3967 ]
+"2931
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"3013
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+[s S71 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"3527
+[s S79 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+]
+[u S83 . 1 `S71 1 . 1 0 `S79 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES83  1 e 1 @3998 ]
+"3988
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"4198
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"4454
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4466
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"4478
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4777
+[v _BAUDCON BAUDCON `VEuc  1 e 1 @4024 ]
+"6538
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"9348
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"56 C:\Users\nosak\MPLABXProjects\PICworld.X\18F14K50-PIC-\PIC 18F14K50.X\main.c
+[v _CharConv CharConv `[16]uc  1 e 16 0 ]
+"65
+[v _main main `(v  1 e 1 0 ]
+{
+"67
+[v main@RxData RxData `uc  1 a 1 50 ]
+"141
+} 0
+"146
+[v _Wait Wait `(v  1 e 1 0 ]
+{
+"148
+[v Wait@i i `i  1 a 2 3 ]
+"146
+[v Wait@num num `ui  1 p 2 0 ]
+"154
+} 0
+"205
+[v _PutString03 PutString03 `(v  1 e 1 0 ]
+{
+"207
+[v PutString03@buf buf `[20]uc  1 a 20 30 ]
+"205
+[v PutString03@string string `*.25uc  1 p 2 22 ]
+[v PutString03@data data `us  1 p 2 24 ]
+[v PutString03@flg flg `us  1 p 2 26 ]
+[v PutString03@keta keta `us  1 p 2 28 ]
+"214
+} 0
+"234
+[v _uint2string uint2string `(v  1 e 1 0 ]
+{
+"236
+[v uint2string@dt dt `us  1 a 2 20 ]
+"237
+[v uint2string@i i `us  1 a 2 18 ]
+"238
+[v uint2string@sw sw `us  1 a 2 16 ]
+"234
+[v uint2string@buf buf `*.39uc  1 p 2 7 ]
+[v uint2string@data data `us  1 p 2 9 ]
+[v uint2string@flg flg `us  1 p 2 11 ]
+"285
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c99\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"30
+} 0
+"196 C:\Users\nosak\MPLABXProjects\PICworld.X\18F14K50-PIC-\PIC 18F14K50.X\main.c
+[v _PutString01 PutString01 `(v  1 e 1 0 ]
+{
+[v PutString01@string string `*.25uc  1 p 2 2 ]
+[v PutString01@flg flg `us  1 p 2 4 ]
+"201
+} 0
+"177
+[v _PutStringLF PutStringLF `(v  1 e 1 0 ]
+{
+"192
+} 0
+"159
+[v _PutString PutString `(v  1 e 1 0 ]
+{
+[v PutString@string string `*.35uc  1 p 2 0 ]
+"173
+} 0
+"218
+[v _GetChar GetChar `(uc  1 e 1 0 ]
+{
+"220
+[v GetChar@rxdt rxdt `uc  1 a 1 0 ]
+"230
+} 0
